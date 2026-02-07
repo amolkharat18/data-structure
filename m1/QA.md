@@ -120,3 +120,65 @@ Marks split:
 
 ---
 
+## Short Note on operations on Data Structures (5 Marks)
+
+Operations on data structures are the basic actions performed to **manage, manipulate, and organize data** stored in a data structure. These operations help in efficient data processing and retrieval.
+
+**Common operations on data structures are:**
+
+1. **Traversal**
+   Accessing each element of the data structure exactly once to process or display data.
+
+2. **Insertion**
+   Adding a new element to the data structure at a specified position.
+
+3. **Deletion**
+   Removing an existing element from the data structure.
+
+4. **Searching**
+   Finding the location of a specific element in the data structure.
+
+5. **Sorting**
+   Arranging data elements in a particular order (ascending or descending).
+
+6. **Merging**
+   Combining two similar data structures into a single structure.
+
+---
+
+**Stack Example (Operations on Data Structure)**
+
+Consider a **Stack** that stores elements **10, 20, 30**.
+
+**Operations on Stack:**
+
+1. **Insertion (Push)**
+   Adds an element to the **top** of the stack.
+   *Example:* `push(30)`
+
+2. **Deletion (Pop)**
+   Removes the **topmost** element from the stack.
+   *Example:* `pop()` removes 30
+
+3. **Traversal**
+   Displays elements from **top to bottom**.
+   *Example:* 30 → 20 → 10
+
+4. **Searching**
+   Finds whether an element exists in the stack.
+   *Example:* Search 20 → Found
+
+5. **Peek**
+   Returns the top element without removing it.
+   *Example:* `peek()` → 30
+
+**Example:**
+
+![Stack Example](stack-example.jpg "Stack Example")
+
+📌 *Exam tip:* Mention **LIFO (Last In, First Out)** and explain 3–5 operations briefly to score full marks.
+
+---
+
+
+
