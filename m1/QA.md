@@ -81,3 +81,42 @@ Marks split:
 * Diagram – 1 mark
 
 ---
+
+## Explain Static and Dynamic Data Structures with suitable examples (5 Marks)
+
+Static Data Structures
+
+Static data structures have a **fixed size**, and the memory is allocated **at compile time**. Once the size is defined, it **cannot be changed** during program execution.
+
+**Examples:**
+
+* **Array**
+* **Static Stack / Static Queue (using array)**
+
+**Example explanation:**
+An **array** of size 10 will always store only 10 elements. Memory is reserved in advance, even if all elements are not used.
+
+---
+
+Dynamic Data Structures
+
+Dynamic data structures do **not have a fixed size**. Memory is allocated and deallocated **at run time**, allowing the structure to grow or shrink as needed.
+
+**Examples:**
+
+* **Linked List**
+* **Dynamic Stack / Queue (using linked list)**
+* **Tree**
+
+**Example explanation:**
+In a **linked list**, nodes are created dynamically, and memory is allocated only when a new element is added.
+
+---
+
+Marks split:
+
+* Static DS definition + example – 2.5 marks
+* Dynamic DS definition + example – 2.5 marks
+
+---
+
