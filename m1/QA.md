@@ -71,6 +71,8 @@ graph TD
 
 ```
 ---
+![Linear-Nonlinear Example](adt-example2.png "Linear-Nonlinear Example")
+---
 
 Marks split:
 
