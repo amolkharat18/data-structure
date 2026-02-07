@@ -13,7 +13,7 @@ ADT (Abstract Data Type) is a logical description of a data structure that defin
 
 ---
 
-## **Explain ADT with suitable example** (2 Marks)
+## **Explain concept of ADT with suitable example** (2 Marks)
 
 An **ADT (Abstract Data Type)** is a data type that defines **a set of operations and their behavior**, without specifying the **implementation details** of how the data is stored.
 
