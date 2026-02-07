@@ -20,4 +20,6 @@ An **ADT (Abstract Data Type)** is a data type that defines **a set of operation
 Example:
 **Stack ADT** defines operations such as **push()**, **pop()**, and **peek()**, but it does not specify whether the stack is implemented using an **array or a linked list**.
 
+![Stack Example](stack-example.jpg "Stack Example")
+
 ---
