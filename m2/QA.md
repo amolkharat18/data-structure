@@ -245,5 +245,126 @@ Top → I
 ```
 
 ---
+
+# Qestion: Discuss the application of stack
+
+# Answer:
+# Applications of Stack
+
+A **Stack** is a linear data structure that follows the **LIFO (Last In First Out)** principle. It is widely used in computer science for managing data in a specific order.
+
 ---
+
+## 1️⃣ Expression Evaluation
+
+Stacks are used to:
+
+* Evaluate **Postfix expressions**
+* Evaluate **Prefix expressions**
+* Convert **Infix to Postfix/Prefix**
+
+Example:
+Postfix: `AB+` → A + B
+
+Compilers use stack to evaluate mathematical expressions.
+
+---
+
+## 2️⃣ Parenthesis Checking
+
+Stack is used to check whether parentheses are balanced.
+
+Example:
+
+* `(A + B)` → Valid
+* `(A + B` → Invalid
+
+Algorithm pushes opening brackets and pops when closing bracket is found.
+
+Used in:
+
+* Compilers
+* Syntax checking
+
+---
+
+## 3️⃣ Function Calls (Recursion)
+
+Stack is used to manage **function calls**.
+
+When a function is called:
+
+* Its address and local variables are pushed into **Call Stack**
+* When function ends, it is popped
+
+Example:
+Recursive factorial program uses stack internally.
+
+---
+
+## 4️⃣ Undo and Redo Operations
+
+Used in:
+
+* Text editors (MS Word)
+* Paint software
+
+Undo operation:
+
+* Last action is pushed into stack
+* When undo is pressed → last action is popped
+
+---
+
+## 5️⃣ Backtracking
+
+Used in:
+
+* Maze solving
+* Depth First Search (DFS)
+* Puzzle solving
+
+Stack helps to return to previous state when path fails.
+
+---
+
+## 6️⃣ Reversing Data
+
+Stack can reverse:
+
+* Strings
+* Numbers
+* Lists
+
+Example:
+Input: ABCD
+Output: DCBA
+
+Push all characters, then pop them.
+
+---
+
+## 7️⃣ Syntax Parsing
+
+Compilers use stack for:
+
+* Parsing programming languages
+* Checking syntax errors
+
+---
+
+# Conclusion
+
+Stack is an important data structure used in:
+
+* Expression evaluation
+* Recursion
+* Parenthesis checking
+* Undo/Redo operations
+* Backtracking
+
+Because of its **LIFO property**, it is very useful in many real-world applications.
+
+---
+
 
