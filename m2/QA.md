@@ -367,4 +367,117 @@ Because of its **LIFO property**, it is very useful in many real-world applicati
 
 ---
 
+# Question: Describe the stack as an Abstract Data Type (ADT), including its operations and properties.
 
+# Answer:
+# Stack as an Abstract Data Type (ADT)
+
+## 1️⃣ What is an Abstract Data Type (ADT)?
+
+An **Abstract Data Type (ADT)** is a logical description of a data structure that defines:
+
+* The data
+* The operations on the data
+* Without specifying how it is implemented
+
+It focuses on **what operations are performed**, not **how they are implemented**.
+
+---
+
+## 2️⃣ Stack as an ADT
+
+A **Stack ADT** is a linear data structure that follows the
+**LIFO (Last In First Out)** principle.
+
+In Stack ADT:
+
+* Insertion and deletion happen only at one end called **TOP**.
+* The internal implementation (array or linked list) is hidden.
+
+---
+
+# 3️⃣ Operations of Stack ADT
+
+### 1. push(x)
+
+* Inserts element `x` at the top of the stack.
+* Condition: Stack should not be full.
+
+### 2. pop()
+
+* Removes and returns the top element.
+* Condition: Stack should not be empty.
+
+### 3. peek() / top()
+
+* Returns the top element without removing it.
+
+### 4. isEmpty()
+
+* Returns TRUE if stack is empty.
+
+### 5. isFull()
+
+* Returns TRUE if stack is full (in array implementation).
+
+---
+
+# 4️⃣ Properties of Stack ADT
+
+1. **LIFO Principle**
+
+   * Last inserted element is removed first.
+
+2. **Restricted Access**
+
+   * Elements can be accessed only from the top.
+
+3. **Single End Operation**
+
+   * All operations occur at one end (TOP).
+
+4. **Dynamic or Static Implementation**
+
+   * Can be implemented using:
+
+     * Array (Static)
+     * Linked List (Dynamic)
+
+5. **Overflow and Underflow**
+
+   * Overflow → When stack is full
+   * Underflow → When stack is empty
+
+---
+
+# 5️⃣ Formal Representation of Stack ADT
+
+A Stack ADT can be represented as:
+
+```
+Stack S
+
+Operations:
+Create(S)
+Push(S, x)
+Pop(S)
+Peek(S)
+IsEmpty(S)
+IsFull(S)
+```
+
+---
+
+# 6️⃣ Advantages of Stack ADT
+
+* Simple to implement
+* Efficient (O(1) operations)
+* Useful in recursion, expression evaluation, parsing
+
+---
+
+# Conclusion
+
+Stack as an ADT defines a collection of elements with LIFO behavior and a set of operations such as push, pop, and peek. It hides implementation details and focuses only on behavior and functionality.
+
+---
